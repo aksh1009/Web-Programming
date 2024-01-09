@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Akshita Jawahar - Resume</title>
+</head>
+
+<body>
+
+    <div style="text-align: center; background-color: #082757; font-family: 'Times New Roman', Times, serif; font-size: 30px; color: #fff; padding: 20px;">
+        <div style="display: inline-block; margin-right: 100px;"> 
+            <h1>Akshita Jawahar</h1>
+            <p>Computer Science Engineering Student</p>
+        </div>
+        <img src="cat.avif" height ="200 "width="150" style="vertical-align: top;"> 
+    </div>
+
+    
+    <section style="margin-left: 30px; font-size: 20px;">
+        <h2>Contact Information</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <br><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <br><br>
+
+            <label for="gender">Gender:</label>
+            <br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <br><br>
+            
+            <p>Social Links:</p>
+            <ul>
+                <li>
+                    <strong>LinkedIn:</strong>
+                    <a href="https://www.linkedin.com/in/akshita-jawahar-85b302256/" target="_blank">LinkedIn Profile</a>
+                </li>
+                <li>
+                    <strong>GitHub:</strong>
+                    <a href="https://github.com/aksh1009" target="_blank">GitHub Profile</a>
+                </li>
+            </ul>
+        </form>
+    </section>
+    <hr>
+
+
+    <!--summary-->
+
+    <p style="margin: 20px; font-size: 18px;">Passionate computer science sophomore with a flair for coding. Dedicated and detail-oriented, I excel in translating complex concepts into efficient, elegant code. Eager to contribute my skills to dynamic projects and continuously expand my programming expertise.</p>
+    <hr>
+    <!--education-->
+
+
+    <section style="margin-left: 30px; font-size: 20px;">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>2022-Present</strong> <br>BTech in Computer Science specialized with Artificial Intelligence and Machine Learning<br>
+                <i>Vellore Institute of Technology, Chennai<br>
+                    CGPA: 8.5</i>
+            </li>
+            <br>
+
+            <li><strong>2021-2022</strong> <br>CBSE XII <br>
+                <i>Chennai Public School - Anna Nagar West Extn<br>Chennai, Tamil Nadu, India<br>
+                    Graduated with 88.6%
+                    <br>
+                    </i>
+            </li>
+            <br>
+
+            <li><strong>2019-2020</strong> <br>CBSE X<br>
+                <i>Chennai Public School - Anna Nagar West Extn<br>Chennai, Tamil Nadu, India<br>
+                    Secured 96.8%</i>
+            </li>
+        </ul>
+    </section>
+    <hr>
+
+    <!--work exp-->
+
+    <section style="margin-left: 30px; font-size: 20px;">
+        <h2>Work Experience</h2>
+        <ul>
+            <li>
+                <strong>Machine Learning Intern</strong>
+                <br> TechnoHacks EduTech Official <br> Jan 2024 - Present 
+            </li>
+            <br>
+
+            <li>
+                <strong>Technical Team Member</strong>
+                <br> Voice-IT Club <br> Jan 2024 - Present 
+            </li><br>
+
+            <li>
+                <strong>AI ML Team Member</strong>
+                <br> Microsoft Innovations Club VITC <br> Dec 2023 - Present 
+            </li><br>
+
+            <li>
+                <strong>Social Media Department Member</strong>
+                <br> CYSCOM VIT Chennai | Oct 2023 - Present 
+                <br> Skills: Content Strategy · Social Media Management
+            </li><br>
+
+            <li>
+                <strong>Content Department Member</strong>
+                <br> Mathematics Club VITCC <br>Oct 2023 - Present 
+            </li><br>
+
+            <li>
+                <strong>Design Department Member</strong>
+                <br> Animation Club VITC <br> Apr 2023 - Aug 2023
+            </li><br>
+        </ul>
+    </section>
+    <hr>
+    <!--skills-->
+    <section style="margin-left: 30px; font-size: 20px;">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming: Python, C, C++, Java</li>
+            <li>HTML</li>
+            <li>Arduino</li>
+            <li>SQL</li>
+            <li>Mathematics</li>
+        </ul>
+    </section>
+
+    <hr>
+
+<!--projs-->
+    <section style="margin-left: 30px; font-size: 20px;">
+
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <strong>Cache Simulator</strong> - Nov 2023
+                <ul>
+                    <li>Developed as a Computer Architecture Project: Cache Simulator - A Python GUI for simulating memory accesses and analyzing cache performance.</li>
+                    <li>Configure cache parameters, visualize behavior, and get detailed statistics, including hit rate.</li>
+                </ul>
+            </li>
+            <br>
+
+
+            <li>
+                <strong>IOT Temperature Alert System</strong> - Sep 2023 to Oct 2023
+                <ul>
+                    <li><a href="https://github.com/aksh1009/IOT-Temperature-Alert-System" target="_blank">GitHub Repository</a></li>
+                    <li>Microprocessors & Microcontrollers project: Temperature Alert System using Arduino IDE, NodeMCU ESP8266, and DHT11 sensor.</li>
+                    <li>Measure temperature, send data to ThingSpeak IoT platform for storage and visualization, and receive real-time alerts on a mobile application created with MIT App Inventor when predefined temperature thresholds are surpassed.</li>
+                </ul>
+            </li>
+
+            <br>
+
+            <li>
+                <strong>Local Traffic Analysis Leveraging FortiGate Firewall</strong> - Sep 2023 to Oct 2023
+                <ul>
+                    <li>Analyzing local network traffic with FortiGate firewall, this project employs Scapy to generate diverse packets, monitors their impact through FortiGate logs, and visualizes the data for insights into network security.</li>
+                    <li>Dependencies include Scapy, Matplotlib, Seaborn, and Pandas.</li>
+                </ul>
+            </li>
+
+            <br>
+            <li>
+                <strong>Airline Reservation System using Python programming </strong> - Jan 2022
+                
+                <ul>
+                    <li>Central Board of Secondary Education Investigatory Project<br></li>
+                </ul>
+            </li>
+
+        </ul>
+    </section>
+    <hr>
+    
+
+    <!--cert-->
+
+
+    <section style="margin-left: 30px; font-size: 20px;">
+        <h2>Licenses and Certifications</h2>
+        <ul>
+            <li><strong>Certificate For Completion Of Python 3.3.4 Training</strong> <br>
+                <i>Spoken Tutorial IIT Bombay, Online<br>
+                    April 2023</i>
+            </li>
+            <br>
+
+            <li><strong>Certificate For Completion Of C Programming Training
+            </strong> <br><i>Spoken Tutorial IIT Bombay, Online<br>
+                April 2023<br>
+                    </i>
+            </li>
+            <br>
+
+
+            <li><strong>Certificate For Completion Of CPP Programming Training
+            </strong> <br><i>Spoken Tutorial IIT Bombay, Online<br>
+                April 2023<br>
+                    </i>
+            </li>
+            <br>
+
+            <li><strong>Getting Started with Cisco Packet Tracer</strong><br> <i> Cisco Networking Academy</i><br>Aug 2023</li>
+            <br>
+            <li><strong>Finalist in House of Developers Data Science Hackathon</strong><br> <i> Google Developers Students Club<br>VIT Chennai<br>Nov 2022</i></li>
+            <br>
+            <li><strong>CEFR Level B2 in Cambridge Assessment English</strong><br> <i> 2019</i></li><br>
+            <li><strong>Diploma, Painting</strong><br><i>Dessin Academy, Institute of Fine Arts<br>2018-19</i></li>
+        </ul>
+    </section>
+    <hr>
+
+
+<!--awards-->
+
+    <section style="margin-left: 30px; font-size: 20px;">
+        <h2>Awards</h2>
+        <ul>
+            <li>Among top 0.1% candidates in Mathematics Standard,CBSE
+                Exam
+                <br> 2020
+            </li>
+            <br>    
+            <li>Qualified for Level 2 AMTI<br>
+                2019</li><br>
+            <li>National Level 3rd<br><i>Global Arts<br>2014</i></li>
+        </ul>
+    </section>
+
+    <hr>
+
+
+
+
+<!--volunteer-->
+
+
+    <section style="margin-left: 30px; font-size: 20px;">
+        <h2>Volunteer Work</h2>
+        <ul>
+            <li>Online Fundraising volunteer<br> Tare Zameen Foundation <br>Aug-Sep 2022
+            </li>
+            <br>    
+            <li>Fundraising Intern<br>
+                Jankalyan Multipurpose Education SocietyJankalyan Multipurpose Education Society<br>
+                Jan 2024-Present </li>
+        </ul>
+    </section>
+
+    <hr>
+
+<!-- languages-->
+<section style="margin-left: 30px; font-size: 20px;">
+    <h2>Languages</h2>
+    <form>
+        <label for="english">English:</label>
+        <input type="radio" id="english1" name="english" value="1">
+        <label for="english1">1</label>
+        <input type="radio" id="english2" name="english" value="2">
+        <label for="english2">2</label>
+        <input type="radio" id="english3" name="english" value="3">
+        <label for="english3">3</label>
+        <input type="radio" id="english4" name="english" value="4">
+        <label for="english4">4</label>
+        <input type="radio" id="english5" name="english" value="5">
+        <label for="english5">5</label>
+
+        <br><br>
+
+        <label for="tamil">Tamil:</label>
+        <input type="radio" id="tamil1" name="tamil" value="1">
+        <label for="tamil1">1</label>
+        <input type="radio" id="tamil2" name="tamil" value="2">
+        <label for="tamil2">2</label>
+        <input type="radio" id="tamil3" name="tamil" value="3">
+        <label for="tamil3">3</label>
+        <input type="radio" id="tamil4" name="tamil" value="4">
+        <label for="tamil4">4</label>
+        <input type="radio" id="tamil5" name="tamil" value="5">
+        <label for="tamil5">5</label>
+
+        <br><br>
+
+        <label for="french">French:</label>
+        <input type="radio" id="french1" name="french" value="1">
+        <label for="french1">1</label>
+        <input type="radio" id="french2" name="french" value="2">
+        <label for="french2">2</label>
+        <input type="radio" id="french3" name="french" value="3">
+        <label for="french3">3</label>
+        <input type="radio" id="french4" name="french" value="4">
+        <label for="french4">4</label>
+        <input type="radio" id="french5" name="french" value="5">
+        <label for="french5">5</label>
+
+        <br><br>
+
+        <label for="hindi">Hindi:</label>
+        <input type="radio" id="hindi1" name="hindi" value="1">
+        <label for="hindi1">1</label>
+        <input type="radio" id="hindi2" name="hindi" value="2">
+        <label for="hindi2">2</label>
+        <input type="radio" id="hindi3" name="hindi" value="3">
+        <label for="hindi3">3</label>
+        <input type="radio" id="hindi4" name="hindi" value="4">
+        <label for="hindi4">4</label>
+        <input type="radio" id="hindi5" name="hindi" value="5">
+        <label for="hindi5">5</label>
+
+<hr>
+
+<!--extracurriculors-->
+<section style="margin-left: 30px; font-size: 20px;">
+    <h2>Extracurriculors</h2>
+    <ul>
+        <li>Chess 
+        </li>
+        <li>Badminton</li>
+        <li> Swimming</li><li> Painting</li>
+    </ul>
+</section>
+
+
+
+<form>
+    
+
+    <input type="submit" value="Submit" style="background-color: #1d39b6; color: white; cursor: pointer;width: 150px; height: 40px;">
+</form>
+</body>
+
+</html>
